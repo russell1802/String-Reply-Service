@@ -16,4 +16,9 @@ public class ReplyController {
 	public ReplyMessage replying(@PathVariable String message) {
 		return new ReplyMessage(message);
 	}
+
+	@GetMapping("/v2/reply/{message}")
+	public ReplyMessageV2 replyingV2(@PathVariable String message) {
+		return new ReplyMessageV2(message);
+	}
 }

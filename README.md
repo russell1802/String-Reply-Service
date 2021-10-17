@@ -93,6 +93,6 @@ Once the service started, the endpoint will be available at `localhost:8080`, so
 GET localhost:8080/reply/helloworld
 
 {
-    message: "helloword"
+    message: "helloworld"
 }
 ```
